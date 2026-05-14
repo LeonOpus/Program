@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "ch01_Hello_Rust",
+    "ch02_guessing_game",
+    "ch03_variables",
+    "ch04_ownership"
+]
+resolver = "2"

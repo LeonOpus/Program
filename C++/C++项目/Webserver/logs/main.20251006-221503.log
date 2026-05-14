@@ -1,0 +1,137 @@
+2025/10/06 22:15:086165 DEBUG EventLoop createdtruein thread134615 - EventLoop.cc:46
+2025/10/06 22:15:086225 INFO  func =>fd5events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:086505 DEBUG EventLoop createdtruein thread134617 - EventLoop.cc:46
+2025/10/06 22:15:086530 INFO  func =>fd8events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:086547 INFO  EventLoop start looping - EventLoop.cc:73
+2025/10/06 22:15:086551 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:086661 DEBUG EventLoop createdtruein thread134618 - EventLoop.cc:46
+2025/10/06 22:15:086674 INFO  func =>fd10events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:086686 INFO  EventLoop start looping - EventLoop.cc:73
+2025/10/06 22:15:086689 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:086757 DEBUG EventLoop createdtruein thread134619 - EventLoop.cc:46
+2025/10/06 22:15:086771 INFO  func =>fd12events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:086783 INFO  EventLoop start looping - EventLoop.cc:73
+2025/10/06 22:15:086786 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:086800 INFO  func =>fd6events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:086834 INFO  EventLoop start looping - EventLoop.cc:73
+2025/10/06 22:15:086838 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:694444 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:694588 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:694753 INFO  TcpServer::newConnection [EchoServer]- new connection [EchoServer-127.0.0.1:8080#1]from 127.0.0.1:43180 - TcpServer.cc:75
+2025/10/06 22:15:694908 INFO  TcpConnection::ctor:[EchoServer-127.0.0.1:8080#1]at fd=13 - TcpConnection.cc:52
+2025/10/06 22:15:695230 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:695264 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:695322 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:695433 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:695480 INFO  Connection UP :127.0.0.1:43180 - main.cc:38
+2025/10/06 22:15:695510 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:696553 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:696610 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:696896 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:705797 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:705846 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:705882 INFO  TcpConnection::handleClose fd=13state=2 - TcpConnection.cc:241
+2025/10/06 22:15:705898 INFO  func =>fd13events=0index=1 - EPollPoller.cc:66
+2025/10/06 22:15:705920 INFO  Connection DOWN :127.0.0.1:43180 - main.cc:42
+2025/10/06 22:15:706037 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:706097 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:706147 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:706200 INFO  TcpServer::removeConnectionInLoop [EchoServer] - connection %sEchoServer-127.0.0.1:8080#1 - TcpServer.cc:114
+2025/10/06 22:15:706302 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:706306 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:706323 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:706381 INFO  removeChannel fd=13 - EPollPoller.cc:102
+2025/10/06 22:15:706396 INFO  TcpConnection::dtor[EchoServer-127.0.0.1:8080#1]at fd=13state=0 - TcpConnection.cc:58
+2025/10/06 22:15:706594 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:950159 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:950216 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:950274 INFO  TcpServer::newConnection [EchoServer]- new connection [EchoServer-127.0.0.1:8080#2]from 127.0.0.1:43182 - TcpServer.cc:75
+2025/10/06 22:15:950322 INFO  TcpConnection::ctor:[EchoServer-127.0.0.1:8080#2]at fd=13 - TcpConnection.cc:52
+2025/10/06 22:15:950389 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:950464 INFO  events happend1 - EPollPoller.cc:40
+2025/10/06 22:15:950548 INFO  channel handleEvent revents:1 - Channel.cc:73
+2025/10/06 22:15:950588 INFO  func =>fd13events=3index=-1 - EPollPoller.cc:66
+2025/10/06 22:15:950621 INFO  Connection UP :127.0.0.1:43182 - main.cc:38
+2025/10/06 22:15:950644 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:096891 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:096961 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:716706 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:716775 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:960566 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:960627 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:960644 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:960694 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:107067 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:107140 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:720621 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:720695 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:969560 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:969634 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:970600 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:970659 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:117244 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:117315 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:730802 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:730874 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:979606 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:979666 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:980549 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:980597 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:127421 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:127492 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:740978 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:741050 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:989767 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:989825 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:990701 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:990754 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:137591 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:137662 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:751068 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:751137 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:15:994493 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:994576 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:15:000866 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:15:000923 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:147754 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:147773 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:756466 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:756563 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:996784 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:996844 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:011024 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:011078 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:157870 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:157941 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:762614 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:762683 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:006947 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:007005 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:021132 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:021187 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:168043 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:168115 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:772788 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:772859 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:016722 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:016794 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:030809 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:030872 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:178224 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:178294 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:782963 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:783035 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:026893 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:026947 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:040973 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:041031 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:188386 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:188456 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:793133 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:793206 INFO  fd total count:1 - EPollPoller.cc:32
+2025/10/06 22:16:037047 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:037101 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:045357 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:045416 INFO  fd total count:2 - EPollPoller.cc:32
+2025/10/06 22:16:198575 DEBUG timeout! - EPollPoller.cc:49
+2025/10/06 22:16:198645 INFO  fd total count:1 - EPollPoller.cc:32
